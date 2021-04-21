@@ -45,8 +45,21 @@ h3 {
 .bottom-container {
   background-color: #cad2c5;
   margin-top: -15.5px;
+
+
   padding: 0;
 }
+.footer-link{
+  background-color: #4CAF50;
+  border-style: inset;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 
 .myprofile {
   border: 1px solid #ddd;
@@ -100,7 +113,7 @@ h3 {
   right: 1px;
   top: 25px;
   animation-name: cloud1;
-  animation-duration: 5s;
+  animation-duration: 15s;
   animation-fill-mode: both;
   animation-delay: 1s;
   animation-iteration-count: infinite;
@@ -119,7 +132,7 @@ h3 {
   right:1px;
   bottom: 280px;
   animation-name: cloud1;
-  animation-duration: 5s;
+  animation-duration: 12s;
   animation-fill-mode: both;
   animation-delay: 1s;
   animation-iteration-count: infinite;
@@ -137,19 +150,16 @@ h3 {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-
-
-
 }
 
-/* transition in css
+
 .circle{
-  width: 100px;
-  padding: 50px;
-  margin : 60px auto;
+  width: 50px;
+  padding: 20px;
+  margin : 40px auto;
   background: pink;
   color: white;
-  border-radius: 50px;
+  border-radius: 20px;
   cursor: pointer;
   transition: 1s;
 
@@ -157,4 +167,4 @@ h3 {
 .circle:hover{
   background: salmon;
   transform: rotate(360deg);
-} */
+}
