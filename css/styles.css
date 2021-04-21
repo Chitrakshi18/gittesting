@@ -13,6 +13,11 @@ body {
 .heading2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  transition: 1s;
+  cursor:none;
+}
+.heading2:hover{
+  transform: rotate(360deg);
 }
 
 h3 {
@@ -35,6 +40,11 @@ h3 {
   padding: 5px;
   width: 20%;
   height: 30%;
+  cursor:grab;
+  transition: 1s;
+}
+.myprofile:hover{
+  transform: scale(2,2);
 }
 
 .skillone {
@@ -42,6 +52,12 @@ h3 {
   border-radius: 40px;
   padding: 5px;
   width: 150px;
+  cursor: pointer;
+  transition: 1s;
+}
+.skillone:hover{
+
+  transform: rotate(90deg);
 }
 
 .skilltwo {
@@ -49,20 +65,68 @@ h3 {
   border-radius: 40px;
   padding: 5px;
   width: 150px;
+  cursor: pointer;
+  transition: 1s;
+}
+.skilltwo:hover{
+
+  transform: rotate(360deg);
 }
 
 .Framework-Engineer {
   text-decoration: underline;
+  cursor: pointer;
+
 }
+
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  left: 1px;
+  right: 1px;
   top: 50px;
+  animation-name: cloud1;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+/*// animate top cloud by keyframes in css, for both clouds same keyframs just direction changed//*/
+@keyframes cloud1 {
+  from{ transform: translateX(-200px)}
+  to{ transform: translateX(1600px)}
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 1px;
+  right:1px;
   bottom: 300px;
+  animation-name: cloud1;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+
 }
+
+/* transition in css
+.circle{
+  width: 100px;
+  padding: 50px;
+  margin : 60px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.circle:hover{
+  background: salmon;
+  transform: rotate(360deg);
+} */
