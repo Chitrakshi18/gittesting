@@ -30,9 +30,23 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  background-color: #d8e2dc;
+  margin: 0;
+  padding: 0;
+}
 
-.bottom-container {}
+.new-class{
+  display: block;
+  background-color: red;
+  margin: 0;
+}
+
+.bottom-container {
+  background-color: #cad2c5;
+  margin-top: -15.5px;
+  padding: 0;
+}
 
 .myprofile {
   border: 1px solid #ddd;
