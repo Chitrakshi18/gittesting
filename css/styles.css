@@ -188,13 +188,13 @@ h3 {
  }
 }
 
-@media screen and (max-width:800px){
+ /* @media screen and (max-width:1820px){
   .mountainpic {
     width: 783px;
 
 
  }
-}
+} */
 
 @media screen and (max-width:455px){
   .footer-link {
@@ -203,4 +203,9 @@ h3 {
 
 
  }
-}
+@media screen and (max-width:1295px){
+   .mountainpic {
+     width: 100%;
+
+
+  }
