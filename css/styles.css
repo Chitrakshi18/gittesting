@@ -82,10 +82,10 @@ h3 {
   cursor: pointer;
   transition: 1s;
 }
-.skillone:hover{
+/* .skillone:hover{
 
   transform: rotate(90deg);
-}
+} */
 
 .skilltwo {
   border: 1px solid #ddd;
@@ -95,10 +95,10 @@ h3 {
   cursor: pointer;
   transition: 1s;
 }
-.skilltwo:hover{
+/* .skilltwo:hover{
 
   transform: rotate(360deg);
-}
+} */
 
 .Framework-Engineer {
   text-decoration: underline;
