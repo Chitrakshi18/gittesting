@@ -123,7 +123,7 @@ h3 {
 /*// animate top cloud by keyframes in css, for both clouds same keyframs just direction changed//*/
 @keyframes cloud1 {
   from{ transform: translateX(-200px)}
-  to{ transform: translateX(1600px)}
+  to{ transform: translateX(1500px)}
 }
 
 .bottom-cloud {
@@ -141,15 +141,18 @@ h3 {
 
 }
 .row{
-  display: flex;
+  display: flex; /*we displayed this parwnt container as flex so every item under row is now flex item*/
   flex-wrap: wrap;
-  padding: 0 4px;
+  /* padding: 0 4px; */
+
 }
 
 .seriespics{
+  background-color: #fff;
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -187,25 +190,23 @@ h3 {
 
  }
 }
-
- /* @media screen and (max-width:1820px){
-  .mountainpic {
-    width: 783px;
-
-
- }
-} */
-
 @media screen and (max-width:455px){
   .footer-link {
 
     display:block;
-
-
- }
+}
+}
+/*mountain pic acc to mobile pixel threshhold*/
 @media screen and (max-width:1295px){
    .mountainpic {
      width: 100%;
-
-
   }
+}
+/* mountain pic adjusting code to all desktop pixels*/
+html {
+  background: "Images/mountains.png"("Images/mountains.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
